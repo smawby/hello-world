@@ -1,0 +1,6 @@
+git clone https://github.com/smawby/hello-world
+
+To upload a project, see https://gist.github.com/mindplace/b4b094157d7a3be6afd2c96370d39fad :
+* Make repository on github
+* git remote add origin [github URL]
+* git push origin master
