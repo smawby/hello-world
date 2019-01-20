@@ -7,6 +7,12 @@ You need to "add" before every commit, unlike SVN
 Be careful when adding with MLAB IDE: you shouldn't add the entire project directory; 
 only the files that have changed and that you want to commit.
 
+Colour coding:
+Black = files that are unchanged since last commit
+Blue = files that have changed since last commit.  May or may not be staged.
+Green = files never previously committed (may be added/staged, but never committed)
+Can't see colours if focus is on filename
+
 If you need to remove files from the repository later, first see http://microchipdeveloper.com/faq:72
 * git rm --cached [filename] removes files from repository, but does not delete the local copies.
 
