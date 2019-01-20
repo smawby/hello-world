@@ -1,5 +1,14 @@
 git clone https://github.com/smawby/hello-world
 
+You need to "add" before every commit, unlike SVN
+* Add first
+* git status to check
+* Then commit, with message
+Be careful when adding with MLAB IDE: you shouldn't add the entire project directory; 
+only the files that have changed and that you want to commit.
+
+
+
 To upload a project, see https://gist.github.com/mindplace/b4b094157d7a3be6afd2c96370d39fad :
 * Make repository on github
 * git remote add origin [github URL]
