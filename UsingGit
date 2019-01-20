@@ -7,9 +7,11 @@ You need to "add" before every commit, unlike SVN
 Be careful when adding with MLAB IDE: you shouldn't add the entire project directory; 
 only the files that have changed and that you want to commit.
 
+If you need to remove files from the repository later, first see http://microchipdeveloper.com/faq:72
+* git rm --cached [filename] removes files from repository, but does not delete the local copies.
 
 
 To upload a project, see https://gist.github.com/mindplace/b4b094157d7a3be6afd2c96370d39fad :
 * Make repository on github
 * git remote add origin [github URL]
-* git push origin master
+* git push origin master (this is also part of the standard workflow to push files to GitHub)
